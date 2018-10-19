@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="extensions">
+      <UniqueIdentifier>{a2ac48f5-7847-4ff8-b75c-3037d98d70db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{2fcf2d45-3344-490d-bab3-01c3b1679a13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\error.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\lookupdns.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\proxy.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\res.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\server.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extensions\dnscache.c">
+      <Filter>extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extensions\dnsres.c">
+      <Filter>extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extensions\lrucache.c">
+      <Filter>extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extensions\stx_fileio.c">
+      <Filter>extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extensions\testdns.c">
+      <Filter>extensions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\examples\Makefile">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\examples\README">
+      <Filter>examples</Filter>
+    </None>
+    <None Include="..\..\extensions\Makefile">
+      <Filter>extensions</Filter>
+    </None>
+    <None Include="..\..\extensions\print_stk.patch">
+      <Filter>extensions</Filter>
+    </None>
+    <None Include="..\..\extensions\README">
+      <Filter>extensions</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\extensions\common.h">
+      <Filter>extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\extensions\stx.h">
+      <Filter>extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\extensions\stx_fileio.h">
+      <Filter>extensions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
