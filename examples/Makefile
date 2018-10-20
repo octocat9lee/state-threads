@@ -53,7 +53,7 @@ ECHO        = /bin/echo
 
 DEPTH       = ..
 BUILD       =
-TARGETDIR   =
+TARGETDIR   = obj
 
 DEFINES     =
 CFLAGS      =
@@ -66,6 +66,8 @@ HEADER      = $(INCDIR)/st.h
 
 LIBRESOLV   =
 EXTRALIBS   =
+
+OS = LINUX
 
 ifeq ($(OS),)
 EXAMPLES    = unknown
